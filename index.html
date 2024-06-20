@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar Cipher Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Caesar Cipher Tool</h1>
+        <div class="input-group">
+            <label for="text">Text:</label>
+            <input type="text" id="text" placeholder="Enter text">
+        </div>
+        <div class="input-group">
+            <label for="scroll">Scroll Value:</label>
+            <input type="number" id="scroll" placeholder="Enter scroll value">
+        </div>
+        <div class="button-group">
+            <button onclick="encrypt()">Encrypt</button>
+            <button onclick="decrypt()">Decrypt</button>
+        </div>
+        <div class="output-group">
+            <label for="result">Result:</label>
+            <textarea id="result" readonly></textarea>
+        </div>
+        <div class="github-link">
+            <a href="https://github.com/ayd1ndemirci/ceaser-cipher" target="_blank">
+                <span>ayd1ndemirci</span>
+            </a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
